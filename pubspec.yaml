@@ -13,7 +13,9 @@ dependencies:
   flutter:
     sdk: flutter
   flutter_local_notifications: ^16.1.0
-  local_notifier: ^0.1.5
+  local_notifier:
+    git:
+      url: https://github.com/erick-forks/local_notifier.git
   flutter_cache_manager: ^3.3.1
   quick_notify_2: ^0.3.0-dev.0
 
